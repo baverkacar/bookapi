@@ -1,0 +1,7 @@
+spring:
+  data:
+    mongodb:
+      database: bookapi
+      port: 27017
+      host: localhost
+      auto-index-creation: false

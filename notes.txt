@@ -1,0 +1,10 @@
+Tamamlananlar:
+    + başarılı requestler sonrasında http.200(OK) atılacak.
+    + başarısız requestler sonrasında http.404(Not Found) atılacak.
+    + her database güncellemesinin date tarihini loglayacağız(update, delete, create)
+    + proje folder structure'ında imd, target, idea istemiyoruz.
+
+Yapılacaklar:
+    - mapstruct?(object mapping)*
+    - swagger entegrasyonu
+    - actuator entegrasyonu reddiness probu mongo kapalıyken hata dönsün yoksa success dönsün.
