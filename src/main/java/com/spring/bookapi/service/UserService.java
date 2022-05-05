@@ -90,6 +90,7 @@ public class UserService {
             logger.error("Database is empty");
             return new ResponseEntity(users, HttpStatus.NOT_FOUND);
         }
+
         logger.info("getUsers method worked successfully");
         return new ResponseEntity(users, HttpStatus.OK);
     }
