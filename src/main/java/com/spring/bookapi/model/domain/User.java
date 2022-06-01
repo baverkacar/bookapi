@@ -13,7 +13,6 @@ import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.Size;
 
 
-// sha256 (hashing algoritması) anotasyon ile olursa daha iyi olur
 
 @Data
 @Builder
@@ -21,7 +20,7 @@ import javax.validation.constraints.Size;
 @NoArgsConstructor
 public class User {
 
-    // Şimdilik id'yi integer olarak tut. Ömer abiye neden string tutulduğu hakkında soru sor. Id arttırma nasıl yapılıyor?
+
     @Id
     private Integer id;
 
