@@ -4,7 +4,8 @@ Tamamlananlar:
     + her database güncellemesinin date tarihini loglayacağız(update, delete, create)
     + proje folder structure'ında imd, target, idea istemiyoruz.
     + swagger entegrasyonu
+    + actuator 
 
 Yapılacaklar:
     - mapstruct?(object mapping)*
-    - actuator entegrasyonu reddiness probu mongo kapalıyken hata dönsün yoksa success dönsün.
+   
